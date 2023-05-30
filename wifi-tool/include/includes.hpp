@@ -1,7 +1,11 @@
 #include <ESP8266WiFi.h>
 #include <Arduino.h>
+#include <ESP8266WebServer.h>
+#include <ESP8266HTTPClient.h>
+#include <LittleFS.h>
+
 #include <set>
-#include<list>
+#include <list>
 
 
 #define DEBUG_MODE
